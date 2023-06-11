@@ -1,0 +1,9 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+micros:
+  - name: User-Auth
+    src: ./
+    engine: nodejs16
+    primary: true
+    public_routes: ["/*"]
+    run: "node backend/server.js"
