@@ -1,8 +1,8 @@
-GET http://localhost:5000/api/v1/admin/users
-# Content-Type: application/json
+GET https://user_auth/api/v1/register
+Content-Type: application/json
 
-# {
-#     "name": "Syed Sheharyar",
-#     "email": "syedsheharyar146@gmail.com",
-#     "password": "syedsheharyar146"
-# }
+{
+    "name": "Syed Sheharyar",
+    "email": "syedsheharyar146@gmail.com",
+    "password": "syedsheharyar146"
+}
