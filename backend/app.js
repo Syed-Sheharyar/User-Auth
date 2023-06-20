@@ -7,7 +7,7 @@ const app = express()
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(cookieparser())
-app.use(cors({ origin: "*" }))
+app.use(cors({ origin: "*", credentials: true, optionSuccessStatus: 200 }))
 
 // Serving static files
 app.use(express.static(__dirname + "/public"))
