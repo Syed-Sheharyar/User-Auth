@@ -9,4 +9,4 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:5000/api/v1/products
+GET https://user-auth-git-main-syed-sheharyar.vercel.app/api/v1/products
