@@ -1,8 +1,12 @@
-GET https://user_auth/api/v1/register
+POST https://user_auth-1-g0493999.deta.app/api/v1/register
 Content-Type: application/json
 
 {
-    "name": "Syed Sheharyar",
-    "email": "syedsheharyar146@gmail.com",
-    "password": "syedsheharyar146"
+    "name": "Eman",
+    "email": "eman@gmail.com",
+    "password": "mypassword"
 }
+
+###
+
+GET http://localhost:5000/api/v1/products
